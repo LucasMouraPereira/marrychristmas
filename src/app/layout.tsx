@@ -14,25 +14,25 @@ const RootLayout = ({ children }: ChildrenProps) => {
         <StyledComponentsRegistry>
           <Providers>{children}</Providers>
         </StyledComponentsRegistry>
-        <Script src="https://unpkg.co/gsap@3/dist/gsap.min.js" async />
+        <Script src="/gsap.min.js" async />
         <Script
-          src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/MorphSVGPlugin3.min.js"
+          src="/MorphSVGPlugin3.min.js"
           async
         />
         <Script
-          src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/DrawSVGPlugin3.min.js"
+          src="/DrawSVGPlugin3.min.js"
           async
         />
         <Script
-          src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/MotionPathPlugin.min.js"
+          src="/MotionPathPlugin.min.js"
           async
         />
         <Script
-          src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/Physics2DPlugin3.min.js"
+          src="/Physics2DPlugin3.min.js"
           async
         />
         <Script
-          src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/EasePack3.min.js"
+          src="/EasePack3.min.js"
           async
         />
         <Script src="/gsap.js" async />
