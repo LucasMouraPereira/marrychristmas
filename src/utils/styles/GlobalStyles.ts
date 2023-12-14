@@ -7,11 +7,9 @@ export const GlobalStyles = createGlobalStyle`
     padding: 0;
     outline: none;
     box-sizing: inherit;-webkit-font-smoothing: antialiased;
-    height: 100%;
     ${({ theme }) => css`
       html,
       body {
-        height: 100%;
         width: 100%;
         box-sizing: border-box;
         scroll-behavior: smooth;
@@ -19,9 +17,9 @@ export const GlobalStyles = createGlobalStyle`
         font-family: ${theme.typography.family.primary};
       }
       body {
+        height: 100vh;
         overflow: hidden;
         display: flex;
-        align-items: center;
         justify-content: center;
         background-color: darkgreen;
       }
