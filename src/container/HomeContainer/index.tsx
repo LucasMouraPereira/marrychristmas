@@ -18,7 +18,7 @@ export const HomeContainer = () => (
       sequence={[
         'Que as bênçãos de Deus façam do seu Natal reuniões em família incríveis e felizes!',
         1000,
-        'De Lucas Para Fernanda',
+        'Feliz natal Lucas',
         1000,
       ]}
       wrapper="span"
